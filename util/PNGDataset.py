@@ -13,8 +13,8 @@ class PNGFolderDataset(Dataset):
 
         self.labels = []
         self.pathologies = []
-        self.files = []    # store basenames (lowercased)
-        self.file_map = {} # map lowercased basename -> actual filename on disk
+        self.files = []
+        self.file_map = {}
 
         valid_exts = (".png", ".jpg", ".jpeg")
 
