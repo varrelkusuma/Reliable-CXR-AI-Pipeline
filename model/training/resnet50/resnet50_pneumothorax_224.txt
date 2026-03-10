@@ -1,0 +1,37 @@
+{np.str_('Fracture'), np.str_('Lung Lesion'), np.str_('Support Devices'), np.str_('Enlarged Cardiomediastinum'), np.str_('Effusion'), np.str_('Consolidation'), np.str_('Atelectasis'), np.str_('Pneumonia'), np.str_('Cardiomegaly'), np.str_('Pleural Other'), np.str_('Lung Opacity'), np.str_('Edema')} will be dropped
+{np.str_('Fracture'), np.str_('Lung Lesion'), np.str_('Support Devices'), np.str_('Enlarged Cardiomediastinum'), np.str_('Effusion'), np.str_('Consolidation'), np.str_('Atelectasis'), np.str_('Pneumonia'), np.str_('Cardiomegaly'), np.str_('Pleural Other'), np.str_('Lung Opacity'), np.str_('Edema')} will be dropped
+{'Nodule', 'Pleural_Thickening', 'Mass', 'Hernia', 'Effusion', 'Infiltration', 'Consolidation', 'Atelectasis', 'Fibrosis', 'Pneumonia', 'Cardiomegaly', 'Emphysema', 'Edema'} will be dropped
+{'Nodule', 'Pleural_Thickening', 'Mass', 'Hernia', 'Effusion', 'Infiltration', 'Consolidation', 'Atelectasis', 'Fibrosis', 'Pneumonia', 'Cardiomegaly', 'Emphysema', 'Edema'} will be dropped
+{np.str_('Fracture'), np.str_('Lung Lesion'), np.str_('Support Devices'), np.str_('Enlarged Cardiomediastinum'), np.str_('Effusion'), np.str_('Consolidation'), np.str_('Atelectasis'), np.str_('Pneumonia'), np.str_('Cardiomegaly'), np.str_('Pleural Other'), np.str_('Lung Opacity'), np.str_('Edema')} will be dropped
+{np.str_('Fracture'), np.str_('Lung Lesion'), np.str_('Support Devices'), np.str_('Enlarged Cardiomediastinum'), np.str_('Effusion'), np.str_('Consolidation'), np.str_('Atelectasis'), np.str_('Pneumonia'), np.str_('Cardiomegaly'), np.str_('Pleural Other'), np.str_('Lung Opacity'), np.str_('Edema')} will be dropped
+{'No Finding', 'Fracture', 'Lung Lesion', 'Support Devices', 'Consolidation', 'Atelectasis', 'Pneumonia', 'Cardiomegaly', 'Pleural Effusion', 'Enlarged Cardio.', 'Lung Opacity', 'Edema'} will be dropped
+{'No Finding', 'Fracture', 'Lung Lesion', 'Support Devices', 'Consolidation', 'Atelectasis', 'Pneumonia', 'Cardiomegaly', 'Pleural Effusion', 'Enlarged Cardio.', 'Lung Opacity', 'Edema'} will be dropped
+{'No Finding', 'Fracture', 'Lung Lesion', 'Support Devices', 'Consolidation', 'Atelectasis', 'Pneumonia', 'Cardiomegaly', 'Pleural Effusion', 'Enlarged Cardio.', 'Lung Opacity', 'Edema'} will be dropped
+{'No Finding', 'Fracture', 'Lung Lesion', 'Support Devices', 'Consolidation', 'Atelectasis', 'Pneumonia', 'Cardiomegaly', 'Pleural Effusion', 'Enlarged Cardio.', 'Lung Opacity', 'Edema'} will be dropped
+{'No Finding', 'Fracture', 'Lung Lesion', 'Consolidation', 'Atelectasis', 'Pneumonia', 'Cardiomegaly', 'Pleural Effusion', 'Lung Opacity', 'Edema'} will be dropped
+{'No Finding', 'Fracture', 'Lung Lesion', 'Consolidation', 'Atelectasis', 'Pneumonia', 'Cardiomegaly', 'Pleural Effusion', 'Lung Opacity', 'Edema'} will be dropped
+Training samples: 548206, Selection samples: 71452
+Starting training...
+Epoch 1:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 1:  56%|█████▋    | 19281/34263 [05:00<03:53, 64.27it/s]Epoch 1:  56%|█████▋    | 19281/34263 [05:10<03:53, 64.27it/s]Epoch 1: 100%|██████████| 34263/34263 [08:53<00:00, 64.27it/s]
+Epoch 1/30, Train Loss: 1.6136, Val Loss: 3.7402, Val Acc: 0.9303, Val ROC AUC: 0.8196, Val F1: 0.3843, Val Precision: 0.4091, Val Recall: 0.3624, Time: 559.95 sec
+Epoch 2:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 2:  56%|█████▌    | 19223/34263 [05:00<03:54, 64.07it/s]Epoch 2:  56%|█████▌    | 19223/34263 [05:19<03:54, 64.07it/s]Epoch 2: 100%|██████████| 34263/34263 [08:54<00:00, 64.08it/s]
+Epoch 2/30, Train Loss: 2.7176, Val Loss: 6.2343, Val Acc: 0.9432, Val ROC AUC: 0.8007, Val F1: 0.3661, Val Precision: 0.5544, Val Recall: 0.2733, Time: 561.29 sec
+Epoch 3:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 3:  56%|█████▌    | 19251/34263 [05:00<03:53, 64.17it/s]Epoch 3:  56%|█████▌    | 19251/34263 [05:18<03:53, 64.17it/s]Epoch 3: 100%|██████████| 34263/34263 [08:53<00:00, 64.26it/s]
+Epoch 3/30, Train Loss: 2.5915, Val Loss: 5.5174, Val Acc: 0.9405, Val ROC AUC: 0.8443, Val F1: 0.3842, Val Precision: 0.5077, Val Recall: 0.3090, Time: 559.74 sec
+Epoch 4:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 4:  56%|█████▌    | 19257/34263 [05:00<03:53, 64.19it/s]Epoch 4:  56%|█████▌    | 19257/34263 [05:18<03:53, 64.19it/s]Epoch 4: 100%|██████████| 34263/34263 [08:53<00:00, 64.26it/s]
+Epoch 4/30, Train Loss: 2.7026, Val Loss: 5.1664, Val Acc: 0.9405, Val ROC AUC: 0.8471, Val F1: 0.3856, Val Precision: 0.5064, Val Recall: 0.3113, Time: 559.85 sec
+Epoch 5:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 5:  56%|█████▋    | 19295/34263 [05:00<03:52, 64.32it/s]Epoch 5:  56%|█████▋    | 19295/34263 [05:17<03:52, 64.32it/s]Epoch 5: 100%|██████████| 34263/34263 [08:53<00:00, 64.18it/s]
+Epoch 5/30, Train Loss: 2.9202, Val Loss: nan, Val Acc: 0.9440, Val ROC AUC: 0.8367, Val F1: 0.2358, Val Precision: 0.6529, Val Recall: 0.1439, Time: 560.53 sec
+Epoch 6:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 6:  56%|█████▌    | 19017/34263 [05:00<04:00, 63.39it/s]Epoch 6:  56%|█████▌    | 19017/34263 [05:17<04:00, 63.39it/s]Epoch 6: 100%|██████████| 34263/34263 [08:59<00:00, 63.52it/s]
+Epoch 6/30, Train Loss: 2.9581, Val Loss: nan, Val Acc: 0.9364, Val ROC AUC: 0.8501, Val F1: 0.3953, Val Precision: 0.4601, Val Recall: 0.3465, Time: 566.52 sec
+Epoch 7:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 7:  56%|█████▌    | 19143/34263 [05:00<03:56, 63.81it/s]Epoch 7:  56%|█████▌    | 19143/34263 [05:10<03:56, 63.81it/s]Epoch 7: 100%|██████████| 34263/34263 [08:56<00:00, 63.88it/s]
+Epoch 7/30, Train Loss: 2.5915, Val Loss: nan, Val Acc: 0.9207, Val ROC AUC: 0.8220, Val F1: 0.3356, Val Precision: 0.3373, Val Recall: 0.3340, Time: 563.24 sec
+Epoch 8:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 8:  56%|█████▌    | 19155/34263 [05:00<03:56, 63.85it/s]Epoch 8:  56%|█████▌    | 19155/34263 [05:16<03:56, 63.85it/s]Epoch 8: 100%|██████████| 34263/34263 [08:57<00:00, 63.73it/s]
+Epoch 8/30, Train Loss: 2.2702, Val Loss: nan, Val Acc: 0.8977, Val ROC AUC: 0.6353, Val F1: 0.1729, Val Precision: 0.1680, Val Recall: 0.1782, Time: 564.83 sec
+Epoch 9:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 9:  56%|█████▌    | 19087/34263 [05:00<03:58, 63.62it/s]Epoch 9:  56%|█████▌    | 19087/34263 [05:11<03:58, 63.62it/s]Epoch 9: 100%|██████████| 34263/34263 [08:57<00:00, 63.76it/s]
+Epoch 9/30, Train Loss: 2.2652, Val Loss: nan, Val Acc: 0.9425, Val ROC AUC: 0.8408, Val F1: 0.1930, Val Precision: 0.6138, Val Recall: 0.1145, Time: 564.63 sec
+Epoch 10:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 10:  56%|█████▌    | 19111/34263 [05:00<03:57, 63.70it/s]Epoch 10:  56%|█████▌    | 19111/34263 [05:17<03:57, 63.70it/s]Epoch 10: 100%|██████████| 34263/34263 [08:56<00:00, 63.82it/s]
+Epoch 10/30, Train Loss: 2.2913, Val Loss: nan, Val Acc: 0.9400, Val ROC AUC: 0.3889, Val F1: 0.0000, Val Precision: 0.0000, Val Recall: 0.0000, Time: 564.07 sec
+Epoch 11:   0%|          | 0/34263 [00:00<?, ?it/s]Epoch 11:  56%|█████▌    | 19095/34263 [05:00<03:58, 63.65it/s]Epoch 11:  56%|█████▌    | 19095/34263 [05:12<03:58, 63.65it/s]Epoch 11: 100%|██████████| 34263/34263 [08:56<00:00, 63.82it/s]
+Epoch 11/30, Train Loss: 2.3104, Val Loss: nan, Val Acc: 0.9353, Val ROC AUC: 0.8320, Val F1: 0.3898, Val Precision: 0.4492, Val Recall: 0.3442, Time: 563.67 sec
+Early stopping triggered at epoch 11 (F1)
