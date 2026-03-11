@@ -1,0 +1,17 @@
+# --------- Frameworks --------- #
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --------- Specialized Medical AI --------- #
+torchxrayvision
+
+# --------- Data Science & ML --------- #
+numpy
+pandas
+scikit-learn
+tqdm
+matplotlib
+
+# --------- Utilities & Environment --------- #
+notebook
+opencv-python
