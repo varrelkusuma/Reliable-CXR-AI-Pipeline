@@ -31,8 +31,8 @@ Four deep learning architectures are compared in this study to find the right mo
 1. Installation
 Clone the repository and install the required dependencies:
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/varrelkusuma/Reliable-CXR-AI-Pipeline
+cd Reliable-CXR-AI-Pipeline
 pip install -r requirements.txt
 ```
 2. Data Preparation
