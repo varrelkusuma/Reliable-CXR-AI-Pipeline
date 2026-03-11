@@ -8,6 +8,7 @@ Four deep learning architectures are compared in this study to find the right mo
 ```text
 ├── main/                       # Primary experiment modules
 │   ├── data-processing/        # Initial cleaning and formatting
+│   ├── image-preprocessing/    # Create pre-processed image
 │   ├── image-upscaling/        # Resolution enhancement scripts
 │   ├── mimic-relabeling/       # Label harmonization for MIMIC-CXR
 │   ├── multiclass-modelling/   # Model training logic
